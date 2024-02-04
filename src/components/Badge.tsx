@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         "background-color": props.badgeBackgroundColor ?? "#ffffff",
       }}
     >
-      Powered by
+      Сделано в:
       <a
         ref={liteBadge}
         href={"https://mix-id.ru"}
@@ -67,7 +67,7 @@ export const Badge = (props: Props) => {
           color: props.poweredByTextColor ?? defaultTextColor,
         }}
       >
-        <span> mix-id</span>
+        <span> Mix-id</span>
       </a>
     </span>
   );
