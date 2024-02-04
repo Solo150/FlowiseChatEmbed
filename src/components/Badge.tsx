@@ -67,7 +67,7 @@ export const Badge = (props: Props) => {
           color: props.poweredByTextColor ?? defaultTextColor,
         }}
       >
-        <span> Mix-id</span>
+        <span> Mix-ID</span>
       </a>
     </span>
   );
